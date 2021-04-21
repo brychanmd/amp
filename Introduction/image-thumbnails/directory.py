@@ -1,7 +1,7 @@
 from PIL import Image
 import os
 
-def list_files( path, filetypes ):
+def list_files(path, filetypes):
     
     filetype_tuple = list_to_tuple(filetypes)
     files_list = []
@@ -35,7 +35,7 @@ def image_thumbnails(parent_dir, new_dir, files, size):
     
     return
 
-def list_to_tuple( my_list ):
+def list_to_tuple(my_list):
     
     # Start by building a list, accounting for upper and lower case.
     my_tuple = []
@@ -48,3 +48,11 @@ def list_to_tuple( my_list ):
     
     return my_tuple
 
+def check_directory( path ):
+    
+    if os.path.isdir(path):
+        return true
+    else:
+        print ("Invalid directory path")
+        return false
+    
