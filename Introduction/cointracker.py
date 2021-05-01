@@ -9,8 +9,8 @@ coins = [
     "name": "Near Protocol",
     "id": "near-near-protocol",
     "data": {
-      "invested": 100,
-      "owned": 38.4615,
+      "invested": 150,
+      "owned": 53.9271101,
     } 
   },
   {
@@ -18,7 +18,7 @@ coins = [
     "id": "dot-polkadot",
     "data": {
       "invested": 175,
-      "owned": 7.398,
+      "owned": 7.51289175,
     }
   },
   {   
